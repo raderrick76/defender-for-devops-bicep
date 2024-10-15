@@ -1,4 +1,4 @@
-@description('The location to deploy our resources to. Default is location of resource group')
+@description('The location to deploy our resources to. Default is location of resource groups')
 param location string = resourceGroup().location
 
 @description('The name of our application.')
